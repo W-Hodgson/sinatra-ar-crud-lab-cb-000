@@ -32,4 +32,6 @@ class ApplicationController < Sinatra::Base
     new_article.save
     redirect "/articles/#{new_article.id}"
   end
+
+  get '/article/:id/edit'
 end
