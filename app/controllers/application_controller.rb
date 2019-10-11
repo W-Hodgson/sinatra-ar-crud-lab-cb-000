@@ -39,6 +39,7 @@ class ApplicationController < Sinatra::Base
   end
 
   patch '/articles/:id' do
-    
+
+    redirect :
   end
 end
