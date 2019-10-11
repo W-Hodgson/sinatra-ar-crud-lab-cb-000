@@ -33,5 +33,7 @@ class ApplicationController < Sinatra::Base
     redirect "/articles/#{new_article.id}"
   end
 
-  get '/article/:id/edit'
+  get '/article/:id/edit' do
+
+  end
 end
